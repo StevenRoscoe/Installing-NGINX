@@ -24,7 +24,15 @@ Head into A Cloud Guru and navigate to the Playground tab. Select Cloud Servers,
 <br />
 
 <p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+It will take a while to create, and after some time you should see the Ready button pop up: <br/>
+<img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*IAWjTAgDfA7iFUx46ANNQA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 
+Click the drop-down menu, and you can see all the information on your remote server. These are the credentials you will use to log into the server using virtualization. Open up your command line of choice and input the following command:
+
+<b>ssh cloud_user@<public_ip_address></b>
+
+This command allows you to remote in as a cloud user under the server’s specified IPv4 address. Afterwards, it will ask you if you want to continue connecting. Type yes and enter the temporary password of the server. Linux has a security feature that doesn’t show the password being typed on screen, but it is there so you’re fine. Now create your own password, and you’re in the system:
+
+<p align="center">
+<br/> <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*QGqCuMIxyjSx75gXa0ICpA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> <br />
