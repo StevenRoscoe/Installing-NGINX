@@ -193,6 +193,8 @@ The .sh at the end of the file indicates that we want to make this file a shell 
 
 Now let’s make the file executable with the chmod command:
 
+<b>chmod +x nginx.sh </b>
+
 <p align="center">
 <br/> 
 <img src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*pLYaMS93j0wzJEOS2JjFvQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
@@ -216,12 +218,16 @@ Now let’s change to where the script is located and move it to a directory whe
 <img src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*sFECW3jQbFT21sQLRq_5Qg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
 <br />
 
+<b>mv nginx.sh ~ </b>
+
 <p align="center">
 <br/> 
 <img src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*UyC98fnFNTR1dEesfAV6kA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
 <br />
 
-After this step I decided to exit my server and remote back into it to try it out with a different IP address. I ran the script with the command ./nginx.sh :
+After this step I decided to exit my server and remote back into it to try it out with a different IP address. I ran the script with the following command:
+
+<b> ./nginx.sh </b>
 
 <p align="center">
 <br/> 
